@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Flask App{% endblock %}
+
+{% block content %}
+<div class="page-content">
+    <h1>Welcome to Flask Static Web App</h1>
+    <p>This is a simple static web application built with Flask.</p>
+    
+    <div class="image-container">
+        <img src="{{ image_url }}" alt="Random Image" class="random-image">
+    </div>
+    
+    <p class="subtitle">Refresh the page to see a different random image!</p>
+</div>
+{% endblock %}
