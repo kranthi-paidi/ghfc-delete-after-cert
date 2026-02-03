@@ -7,6 +7,7 @@ A simple static web application built with Flask featuring three pages with rand
 - **Landing Page** - Displays a random image (uses Lorem Picsum)
 - **Details Page** - Shows random informational text
 - **Contact Page** - Displays random contact information
+- **Random Number Page** - Generates a random number between 1 and 1000
 
 ## Installation
 
@@ -46,5 +47,6 @@ python app.py
     ├── base.html          # Base template with navigation
     ├── landing.html       # Landing page template
     ├── details.html       # Details page template
-    └── contact.html       # Contact page template
+    ├── contact.html       # Contact page template
+    └── random-number.html # Random number generator template
 ```
