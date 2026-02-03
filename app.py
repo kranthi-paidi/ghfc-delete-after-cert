@@ -43,6 +43,11 @@ def contact():
     random_contact = random.choice(CONTACTS)
     return render_template('contact.html', contact=random_contact)
 
+@app.route('/random-number')
+def random_number():
+    number = random.randint(1, 1000)
+    return render_template('random-number.html', number=number)
+
 if __name__ == '__main__':
     import os
     debug_mode = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'

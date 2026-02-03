@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Random Number - Flask App{% endblock %}
+
+{% block content %}
+<div class="page-content">
+    <h1>Random Number Generator</h1>
+    <p>Here's your randomly generated number:</p>
+    
+    <div class="random-number-display">
+        <h2 class="random-number">{{ number }}</h2>
+    </div>
+    
+    <p class="subtitle">Refresh the page to generate a new random number!</p>
+</div>
+{% endblock %}
